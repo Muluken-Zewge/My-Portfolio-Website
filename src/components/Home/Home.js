@@ -4,10 +4,17 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import About from "../About/About"; 
+import Projects from "../Projects/Projects"; 
+import Resume from "../Resume/ResumeNew";
+import Experience from "../Experience/Experience"
+import Education from "../Education/Education"
+import Skills from "../Skills/skills"
 
 function Home() {
   return (
-    <section>
+    <>
+    <section id="home">
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -22,7 +29,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> MULUKEN ZEWGE</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -41,8 +48,32 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
     </section>
+    <section id="about">
+    <About />
+  </section>
+  
+  <section id="experience">
+    <Experience />
+  </section>
+
+  <section id="projects">
+    <Projects />
+  </section>
+
+  <section id="skills">
+    <Skills />
+  </section>
+
+  <section id="education">
+    <Education />
+  </section>
+
+  <section id="resume">
+    <Resume />
+  </section>
+  </>
+
   );
 }
 

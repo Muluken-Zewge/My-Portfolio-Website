@@ -4,8 +4,10 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Experience from "./components/Experience/Experience";
+import Education from "./components/Education/Education";
+import Skills from "./components/Skills/skills";
 import {
   BrowserRouter as Router,
   Route,
@@ -36,12 +38,14 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
