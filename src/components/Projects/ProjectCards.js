@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import Modal from "react-bootstrap/Modal";
-import { IPhoneX } from "react-device-mockups";
 
 function ProjectCards(props) {
 

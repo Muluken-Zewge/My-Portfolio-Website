@@ -19,6 +19,14 @@ function Experience() {
         icon={<FaLaptopCode />}
       />
       <ExperienceCard
+        employer="A2SV(Africa to Silicon Valley)"
+        title="Backend Engineer"
+        description="Develop reliable and scalable backend services using Go (Golang), focusing on performance, maintainability, and clean architecture. Collaborate with cross-functional teams to design APIs, implement best practices, optimize system efficiency, and deliver robust, production-ready backend solutions."
+        startDate="Dec 2025"
+        endDate="Present"
+        icon={<FaLaptopCode />}
+      />
+      <ExperienceCard
         employer="Hawassa University ICT Center"
         title="Flutter Developer Intern"
         description="Developed a Flutter application to digitalize the maintenance system for Hawassa University ICT Center, streamlining operations and user workflows. Integrated Firebase Firestore for secure authentication and data storage, alongside a real-time chat feature for seamless communication."

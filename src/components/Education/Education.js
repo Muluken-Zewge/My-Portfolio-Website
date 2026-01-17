@@ -25,11 +25,13 @@ function Education() {
         icon={<FaBookOpen />}
       />
       <EducationCard
-        school="A2SV (Africa to Silicon Valley)"
+        school="A2SV (Africa to Silicon Valley) - backed by Google twice"
         title="Data Structures and Algorithms"
         description= {
           <>
-          A2SV upskills African tech talents and connects them with top tech companies resulting in 60+ offers from <span className="purple">Google, Amazon, Meta, Palantir, Databricks, and Bloomberg</span>.
+          A2SV upskills African tech talents and connects them with top tech companies resulting in 80+ offers from <span className="purple">Google, Amazon, Meta, Palantir, Databricks, and Bloomberg</span>.
+          <br/>
+          The education Focus on data structures & algorithms, advanced problem solving, system design & architecture, communication, and leadership
           </>
         }
         startDate="Jan 2025"

@@ -757,3 +757,21 @@ button:focus {
 .quote-author {
   color: #c770f0;
 }
+
+a[href^="https"],a[href^="http"]:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a[href^="https"],a[href^="http"]:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a[href^="https"],a[href^="http"]:hover {
+  color: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
