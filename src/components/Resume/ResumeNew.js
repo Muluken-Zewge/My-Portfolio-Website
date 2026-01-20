@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/Muluken-Zewge-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import {
   AiFillGithub,
@@ -18,7 +18,7 @@ GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs
 
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [setWidth] = useState(1200);
 
   useEffect(() => {
     setWidth(window.innerWidth);

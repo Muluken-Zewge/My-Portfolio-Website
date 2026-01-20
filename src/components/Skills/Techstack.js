@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
   DiMongodb,
   DiAndroid,
   DiAppstore
@@ -19,7 +18,7 @@ import {
   SiDocker,
   SiLeetcode
 } from "react-icons/si";
-import { FaApple, FaGooglePay, FaGooglePlay } from "react-icons/fa";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 function Techstack() {
   return (

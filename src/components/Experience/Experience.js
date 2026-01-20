@@ -1,6 +1,6 @@
 import React from "react";
 import ExperienceCard from "./ExperienceCard";
-import { FaMobileAlt, FaLaptopCode } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
 import "./ExperienceCardStyle.css";
 
 function Experience() {
