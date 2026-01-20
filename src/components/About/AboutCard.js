@@ -11,9 +11,9 @@ function AboutCard() {
              a Software Engineer with a solid background in <span className="purple">programming principles </span> and <span className="purple">best practices.</span>
             <br />
            
-            I am currently employed as a <span className="purple">Mobile Application developer </span>at <a href="https://2f-capital.com/" target="_blank" >Two F Capital</a>.
+            I am currently employed as a <span className="purple">Mobile Application developer </span>at <a href="https://2f-capital.com/" target="_blank" rel="noreferrer">Two F Capital</a>.
             <br />
-            I have completed BSc degree in <span className="purple">Computer Engineering</span>, followed by an intensive <span className="purple">Andvanced Algorithms and Software Development</span> education from the renowned <a href="https://a2sv.org/" target="_blank">A2SV(Africa To Silicon Valley)</a>. 
+            I have completed BSc degree in <span className="purple">Computer Engineering</span>, followed by an intensive <span className="purple">Andvanced Algorithms and Software Development</span> education from the renowned <a href="https://a2sv.org/" target="_blank" rel="noreferrer">A2SV(Africa To Silicon Valley)</a>. 
             <br />
             
             Proficient in <span className="purple">Dart</span>, <span className="purple">Python</span>, and <span className="purple">Go</span>, I am always eager to learn new technologies and expand my skillset.
