@@ -7,7 +7,6 @@ import {
 
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
   SiPostgresql,
   SiFlutter,
@@ -19,6 +18,7 @@ import {
   SiLeetcode
 } from "react-icons/si";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
+import { DiRedis } from "react-icons/di";
 
 function Techstack() {
   return (
@@ -63,7 +63,7 @@ function Techstack() {
         <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <DiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLeetcode />

@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
+import Particle from "../Particle.jsx";
 import pdf from "../../Assets/Muluken-Zewge-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/Page/AnnotationLayer.css";
+import "react-pdf/dist/Page/TextLayer.css";
 import {
   AiFillGithub,
   AiOutlineTwitter,

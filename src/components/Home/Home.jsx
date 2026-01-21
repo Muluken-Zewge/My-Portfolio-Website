@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Type from "./Type";
+import Particle from "../Particle.jsx";
+import Type from "./Type.jsx";
 import About from "../About/About"; 
 import Projects from "../Projects/Projects"; 
 import Resume from "../Resume/ResumeNew";

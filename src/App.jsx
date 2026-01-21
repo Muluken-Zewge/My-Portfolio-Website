@@ -1,30 +1,27 @@
-import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import Resume from "./components/Resume/ResumeNew";
-import Experience from "./components/Experience/Experience";
-import Education from "./components/Education/Education";
-import Skills from "./components/Skills/skills";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
+import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+
+import Preloader from "./components/Pre.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Home from "./components/Home/Home.jsx";
+import About from "./components/About/About.jsx";
+import Projects from "./components/Projects/Projects.jsx";
+import Resume from "./components/Resume/ResumeNew.jsx";
+import Experience from "./components/Experience/Experience.jsx";
+import Education from "./components/Education/Education.jsx";
+import Skills from "./components/Skills/skills.jsx";
 import ScrollToTop from "./components/ScrollToTop";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, setLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      setLoad(false);
     }, 1200);
 
     return () => clearTimeout(timer);
@@ -44,7 +41,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/education" element={<Education />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>
